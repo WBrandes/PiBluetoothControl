@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function resetPassword() {
+	
+	window.location = "http://127.0.0.1:5000/update/" + document.getElementById("passwordReset").value;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div style="text-align:center;">
+
+<p> Reset Password: </p>
+
+</br>
+
+<input type="text" id="passwordReset" placeholder="New Password"/>
+
+<input type="button" value="Reset" onclick="resetPassword()"/>
+</div>
+
+</body>
+
+</html>
